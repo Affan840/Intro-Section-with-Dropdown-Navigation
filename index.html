@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Frontend Mentor | Intro section with dropdown navigation</title>
+  </head>
+  <body>
+    <div class="overlay"></div>
+    <nav>
+      <div class="logo">
+        <img src="images/logo.svg" alt="" />
+      </div>
+      <div class="inner-nav">
+        <ul>
+          <li class="dropdown">
+            Features <img src="images/icon-arrow-down.svg" alt="" />
+            <div class="sub-menu">
+              <ul>
+                <li><img src="images/icon-todo.svg" alt="" />Todo List</li>
+                <li><img src="images/icon-calendar.svg" alt="" />Calender</li>
+                <li><img src="images/icon-reminders.svg" alt="" />Reminders</li>
+                <li><img src="images/icon-planning.svg" alt="" />Planning</li>
+              </ul>
+            </div>
+          </li>
+          <li class="dropdown">
+            Company <img src="images/icon-arrow-down.svg" alt="" />
+            <div class="sub-menu">
+              <ul>
+                <li>History</li>
+                <li>Our Team</li>
+                <li>Blog</li>
+              </ul>
+            </div>
+          </li>
+          <li>Careers</li>
+          <li>About</li>
+        </ul>
+        <div class="nav-right">
+          <button>Login</button>
+          <button>Register</button>
+        </div>
+      </div>
+      <div class="menu">
+        <img src="images/icon-menu.svg" alt="" />
+      </div>
+      <div class="close">
+        <img src="images/icon-close-menu.svg" alt="" />
+      </div>
+    </nav>
+    <main>
+      <section class="left">
+        <h1>Make remote work</h1>
+        <p>
+          Get your team in sync, no matter your location. Streamline processes,
+          create team rituals, and watch productivity soar.
+        </p>
+        <button>Learn more</button>
+        <article>
+          <img src="images/client-databiz.svg" alt="" />
+          <img src="images/client-audiophile.svg" alt="" />
+          <img src="images/client-meet.svg" alt="" />
+          <img src="images/client-maker.svg" alt="" />
+        </article>
+      </section>
+      <section class="right">
+        <picture>
+          <source
+            media="(max-width: 768px)"
+            srcset="images/image-hero-mobile.png"
+          />
+          <img src="images/image-hero-desktop.png" alt="" srcset="" />
+        </picture>
+      </section>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
